@@ -1,0 +1,157 @@
+/* General Styling */
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Clean and modern font */
+  background-color: #f4f5f7; /* Light gray background for the app */
+  color: #333333; /* Dark text for better readability */
+  padding: 20px;
+}
+
+/* Header Styling */
+.App-header {
+  background-color: #004aad; /* Deep blue for header */
+  color: #ffffff; /* White text for contrast */
+  padding: 20px;
+  border-bottom: 4px solid #ffcc00; /* Yellow accent border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Search Section */
+.search-section {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #004aad; /* Blue border for input */
+  width: 300px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #004aad; /* Blue background for buttons */
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00307d; /* Darker blue on hover */
+}
+
+/* Task List Styling */
+.task-list {
+  margin: 30px auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 6px solid #004aad; /* Blue accent border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item button {
+  background-color: #ff6b6b; /* Light red for delete button */
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-item button:hover {
+  background-color: #e63946; /* Darker red on hover */
+}
+
+/* Add/Edit Task Forms */
+.add-task-form, .edit-task-form {
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 2px solid #004aad;
+  background-color: #f9f9f9; /* Light gray for inputs */
+  color: #333333;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #004aad;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #00307d;
+}
+
+/* Form Page Styling */
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+input, select, textarea {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #004aad;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #00307d;
+}
