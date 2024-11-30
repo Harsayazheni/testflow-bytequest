@@ -7,15 +7,6 @@ Design a Comprehensive Test Management Platform that streamlines test creation, 
 ## Our Solution - Test Flow
 Testflow is an innovative solution designed to simplify the process of test management for educators and students. With Testflow, users can easily add, edit, delete, and search for tests, streamlining the administrative workflow. Students can conveniently attend tests through seamless integration with Google Forms embedding, ensuring a smooth and efficient testing experience. This platform not only enhances the ease of managing and taking tests but also provides a user-friendly interface for both educators and students, making test management more efficient and accessible.
 
-## Tech Stack
-Mongodb
-Express
-React 
-CSS
-Node
-JS
-Google Forms
-
 ## Frontend
 ![image](https://github.com/user-attachments/assets/e3733bec-7160-4185-99fa-78a46c268995)
 
@@ -40,6 +31,15 @@ npm run dev
 ```
 npm start
 ```
+
+## Tech Stack
+### Mongodb
+### Express
+### React 
+### CSS
+### Node
+### JS
+### Google Forms
 
 ## Our Team - CodeGen
 ### Harsayazheni P Y
